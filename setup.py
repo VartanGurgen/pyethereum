@@ -17,7 +17,7 @@ tests_require = [
         r, r) for r in tests_require]
 
 # dependency links
-dependency_links = []
+dependency_links = [ 'git+https://github.com/VartanGurgen/ethash.git@master#egg=pyethash-0.1.23' ]
 
 # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
 # see:
