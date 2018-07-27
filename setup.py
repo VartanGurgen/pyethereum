@@ -30,7 +30,7 @@ setup(
     long_description=readme,
     url='https://github.com/ethereum/pyethereum/',
     install_requires=install_requires,
-    dependency_links=['git+https://github.com/VartanGurgen/ethash.git@master#egg=pyethash-0.1.23']
+    dependency_links=['git+https://github.com/VartanGurgen/ethash.git@master#egg=pyethash-0.1.23'],
     #tests_require=tests_require,
     setup_requires=[
         'pytest-runner==2.7'
